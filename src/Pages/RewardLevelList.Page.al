@@ -27,17 +27,14 @@ page 50101 "Reward Level List"
         }
     }
 
-    actions
-    {
-        area(Navigation)
-        {
-            action(New)
-            {
-                ApplicationArea = All;
-                Caption = 'New Reward Level';
-                Image = New;
-                //RunObject = Page "Reward Level Card";
-            }
-        }
-    }
+    //  trigger OnOpenPage(); 
+    // begin 
+
+    //     if not CustomerRewardsExtMgt.IsCustomerRewardsActivated then 
+    //         Error(NotActivatedTxt); 
+    // end; 
+
+    // var 
+    //     CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt."; 
+    //     NotActivatedTxt: Label 'Customer Rewards is not activated'; 
 }
