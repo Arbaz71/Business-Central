@@ -31,7 +31,7 @@ pageextension 50100 CustomerCard extends "Customer Card"
     }
     // trigger OnAfterGetRecord()
     // var
-    //     CustomerRewardsMgtExt: Codeunit "Customer Rewards Mgt. Ext.";
+    //     CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt";
     // begin
     //     RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(Rec.RewardPoints);");
     // end;

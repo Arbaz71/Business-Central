@@ -17,14 +17,14 @@ pageextension 50101 CustomerList extends "Customer List"
             PromotedCategory = Process;
             PromotedIsBig = true;
 
-            trigger OnAction()
-            var CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt.";
-            begin
-                if CustomerRewardsExtMgt.IsCustomerRewardsActivated() then
-                     CustomerRewardsExtMgt.OpenRewardsLevelPage
-                else
-                        CustomerRewardsExtMgt.OpenCustomerRewardsWizard;
-                end
+            // trigger OnAction()
+            // var CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt";
+            // begin
+            //     if CustomerRewardsExtMgt.IsCustomerRewardsActivated() then
+            //          CustomerRewardsExtMgt.OpenRewardsLevelPage
+            //     else
+            //             CustomerRewardsExtMgt.OpenCustomerRewardsWizard;
+            //     end
         }
        }
     }
